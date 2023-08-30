@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+  --text-hero-primary:#fff;
+  --primary-logo-color:#00D54B;
+  --privacy-color-primary:#b6b6b6;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero::before{
+  content: "";
+  inset: 0;
+  width: 100%;
+  z-index: -1;
+  height: 100%;
+  position: absolute;
+  background: url("/assets/herosectionassets/lines-bg.svg") center center/cover;
+}

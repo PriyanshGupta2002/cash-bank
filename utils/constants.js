@@ -1,0 +1,39 @@
+export const navbarLinks = [
+    {
+        name:"sign in",
+        link:"#"
+    },
+    {
+        name:"legal",
+        link:"#"
+    },
+    {
+        name:"licenses",
+        link:"#"
+    },
+    {
+        name:"security",
+        link:"#"
+    },
+    {
+        name:"careers",
+        link:"#"
+    },
+    {
+        name:"press",
+        link:"#"
+    },
+    {
+        name:"support",
+        link:"#"
+    },
+    {
+        name:"status",
+        link:"#"
+    },
+    {
+        name:"codeblog",
+        link:"#"
+    },
+
+]
